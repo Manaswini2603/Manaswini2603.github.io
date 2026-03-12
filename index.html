@@ -4,65 +4,191 @@
 <title>Manaswini Nimmagadda</title>
 
 <style>
+
 body{
-font-family: Arial;
-background:#f4f4f4;
+font-family: Arial, sans-serif;
 margin:0;
-padding:40px;
+background:#f5f5f5;
+color:#333;
 }
 
-.container{
+header{
+background:#111;
+color:white;
+padding:20px 40px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+padding:80px 40px;
+text-align:center;
+background:white;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+color:#666;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:12px 24px;
+background:#111;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+.section{
 max-width:900px;
 margin:auto;
+padding:60px 40px;
+}
+
+.section h2{
+margin-bottom:20px;
+}
+
+.card{
 background:white;
-padding:40px;
+padding:25px;
 border-radius:10px;
+margin-bottom:20px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
 }
 
-h1{
-color:#222;
-}
-
-button{
-padding:12px 20px;
-background:black;
-color:white;
-border:none;
-border-radius:5px;
-cursor:pointer;
+footer{
+text-align:center;
+padding:30px;
+color:#777;
 }
 
 </style>
+
 </head>
 
 <body>
 
-<div class="container">
+<header>
+<nav>
+<div><strong>Manaswini</strong></div>
 
-<h1>Hi, I'm Manaswini 👋</h1>
+<div>
+<a href="#about">About</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+</header>
+
+
+<section class="hero">
+
+<h1>Manaswini Nimmagadda</h1>
 
 <p>MBA Candidate | Finance | Strategy</p>
 
+<a class="button" href="resume.pdf">Download Resume</a>
+
+</section>
+
+
+<section class="section" id="about">
+
 <h2>About Me</h2>
 
-<p>
-I am an MBA candidate interested in investment banking,
-strategy, and financial analysis.
-</p>
-
-<h2>Resume</h2>
-
-<a href="resume.pdf">
-<button>Download Resume</button>
-</a>
-
-<h2>Connect With Me</h2>
+<div class="card">
 
 <p>
-LinkedIn: add-your-link
+I am an MBA candidate passionate about finance, strategy, and
+problem solving. I have experience working in financial services
+and enjoy analyzing complex business problems.
 </p>
 
 </div>
+
+</section>
+
+
+<section class="section" id="experience">
+
+<h2>Experience</h2>
+
+<div class="card">
+
+<h3>Financial Services Experience</h3>
+
+<p>
+Experience working with financial institutions and hedge fund
+clients, focusing on analytics and financial data.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section" id="projects">
+
+<h2>Projects</h2>
+
+<div class="card">
+
+<h3>Finance & Strategy Analysis</h3>
+
+<p>
+Case studies and financial analysis exploring investment
+opportunities, markets, and strategy.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="section" id="contact">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/manaswini-nimmagadda/">
+linkedin.com/in/manaswini-nimmagadda
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Manaswini Nimmagadda
+
+</footer>
 
 </body>
 </html>
